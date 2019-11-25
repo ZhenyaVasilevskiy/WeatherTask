@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4724247ae5.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="animation.js"> </script>
+        <title>Weather</title>
+    </head>
+    <body>
+        <div class="box">
+
+                <div id="interface">
+                <div class="header" id="header">
+                    <h1 id="question">What is the weather?</h1>
+                </div>
+                <div class="search-box" id="search">
+                    <input class="search-txt" id="city_name" type="text" placeholder="Type to search">
+                    <a class="search-btn" id="btn" href="#">
+                        <i class="fas fa-search-location"></i>
+                    </a>
+                </div>
+            </div>
+
+                <!-- </div> -->
+
+            </div>
+            <div class="menu">
+                <div id="information_desk" style="display: none">
+                    <h1><strong id="city"></strong></h1>
+                    <p id="main"></p>
+                    <img id="picture" src="" alt="">
+                    <ul id="information_table">
+                        <li id="temperature"></li>
+                        <li id="humidity"></li>
+                        <li id="wind_speed"></li>
+                    </ul>
+                </div>
+                <div id="error" style="display: none">
+                    <p></p>
+                </div>
+                </div>
+        </div>
+        <script src="parcer.js"></script>
+
+  </body>
+</html>
